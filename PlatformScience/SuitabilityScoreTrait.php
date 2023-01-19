@@ -2,8 +2,17 @@
 
 namespace PlatformScience;
 
+/**
+ * Helper class for Suitable Score Calculator
+ */
 trait SuitabilityScoreTrait
 {
+    /**
+     * Find factors of a number except one
+     *
+     * @param $n
+     * @return string
+     */
     public function findFactorsExceptOne($n)
     {
         $str = '';
@@ -16,6 +25,12 @@ trait SuitabilityScoreTrait
         return trim($str, ",");
     }
 
+    /**
+     * Find all vowels and consonants
+     *
+     * @param $str
+     * @return int[]
+     */
     public function findVowelsConsonants($str)
     {
         $str = strtolower($str);
