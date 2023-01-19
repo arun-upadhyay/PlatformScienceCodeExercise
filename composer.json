@@ -1,0 +1,19 @@
+{
+  "name": "arun.upadhyay/platform-science-code-exercise",
+  "autoload": {
+    "psr-4": {
+      "PlatformScience\\": "PlatformScience/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Arun Upadhyay",
+      "email": "arun-upadhyay@outlook.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.3",
+    "fakerphp/faker": "^1.20",
+    "phpunit/phpunit": "^5.0"
+  }
+}
